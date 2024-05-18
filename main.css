@@ -81,8 +81,151 @@ footer {
 .right {
     text-align: right;
 }
+
+/*HOME PAGE*/
+
+.home {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.left-side, .right-side {
+  width: 50%;
+  padding: 20px;
+}
+
+.left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  width: 100%;
+  text-align: center;
+}
+
+.image {
+  max-width: 100%;
+  height: 170px;
+  width: 170px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.home-content img {
+  max-width: 100%;
+  height: 170px;
+  width: 170px;
+  margin-right: 20px;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.content-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.sub-content {
+  flex: 1;
+}
+
+
+.main-home-content{
+margin-left: 2em;
+margin-right: 2em;
+
+}
+
+.home-content hr {
+  border: none;
+  border-top: 2px dashed #fff3f1;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.image-container-v2 {
+  width: 100%;
+  text-align: center;
+}
+
+.image-v2 {
+  max-width: 100%;
+  height: 170px;
+  width: 170px;
+}
+
+.text-v2 {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.home-content-v2 img {
+  max-width: 100%;
+  height: 170px;
+  width: 170px;
+  margin-left: 20px;
+}
+
+.content-container-v2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.content-title-v2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.sub-content-v2 {
+  flex: 1;
+}
+
+.home-content-v2 hr {
+  border: none;
+  border-top: 2px dashed #fff3f1;
+  width: 75%;
+  margin: 0 auto;
+}
+
+
 /* FAQ PAGE */
-body .faq-body {
+.faq-body {
   margin: 0;
 }
 
@@ -215,7 +358,7 @@ section#contacts h2 {
 }
 
 /* FEEDBACK PAGE */
-main .feedback-main {
+.feedback-main {
   flex: 1;
   text-align: center;
   padding: 20px;
